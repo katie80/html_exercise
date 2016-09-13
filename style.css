@@ -1,0 +1,109 @@
+body {
+	background-image: url("https://i.ytimg.com/vi/hPCotoawhk0/maxresdefault.jpg");
+}
+
+.contentDiv {
+	width: 60%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	background-color: #D3E9F5;
+	border: #8c8c8c 2px solid;
+	border-radius: 10px;
+	color: #595959;
+}
+
+.header {
+	background-color: #8c8c8c;
+	color: #00334d;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	height: 100px;
+	padding-top: 5px;
+	margin-bottom: -15px;
+}
+
+.quickStats {
+	background-color: white;
+	padding: 5px 0 5px 0;
+	color: #8c8c8c;
+	text-align: center;
+}
+
+.image {
+	padding-top: 10px;
+    /*padding-bottom: 10px;*/
+    text-align: center;
+    padding-right: 465px;
+}
+
+.image img {
+	margin-top: 15px;
+	border: #8c8c8c 1px solid;
+	border-radius: 5px;
+}
+
+.main {
+	background-color: #D3E9F5;
+	border-radius: 10px; /*needs to be here along with .contentDiv's border-radius*/
+}
+
+h3 {
+	color: #595959;
+	text-align: center;
+}
+
+.quickFacts {
+	padding-left: 30px;
+}
+
+.quickFacts ul {
+	list-style: none;
+	margin-left: -5px;
+}
+
+p {
+	padding: 0 50px 30px 30px;
+	margin-bottom: 5px;
+}
+
+/* unvisited link */
+a:link {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: #595959;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+hr {
+    height: 30px;
+    border-style: solid;
+    border-color: #8c8c8c;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #8c8c8c;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
